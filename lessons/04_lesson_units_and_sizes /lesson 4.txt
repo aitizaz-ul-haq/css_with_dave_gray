@@ -1,0 +1,46 @@
+units determine the size of every thing in the page they are very importat
+
+px or pixels is the most common value that we will use to apply sizing it is a unit that is applied
+most of the time universally
+
+we dont want use an absoulute font size on a page like px so when we use
+px we use it for others sunc as borders and other sizing properties that require px numeric value
+these not effect the text on the web page rather the content
+
+another important unit for values is percentage it represents a fraction of some other values
+
+for sizing our block level elements we can definatly use percentage because the 
+percentage will aplly to original value of the box sizing set to the 
+block element if a nested html element has been given the percentage it will calculate the
+parent element s width and then apply the percentage value to it
+
+the rem unit is used typically for the font sizing 1 rem is set by default by
+the browser the browser sets the rut which is the r in rem and so when ever weset
+et the value of font using it will look at the broser set value of rut
+which by default is 1rem so 2 rem would mean we are doiubling the value set by the
+browser 
+
+another usint is em whcih we can use to set the font value the em as a reference
+looks at the rem value now in main if we set the value to 2 rem 1 em would be
+amplified beyond our requirement so when do we use em we use it for margin and padding
+also for buttons we can set the font size using rem and then go ahead at set the
+padding and or margin using em
+
+another unit is ch this sets the value by looking at a value that already exists
+applies to it
+
+ther si something called the default styling that the browsers does and doing so the 
+the browser basically cancels out some tof the styling in perticular the units values 
+we have set to default this is because the browser has detemioned that some values
+would not appropirate so it by default changes the values of some units in eorticular the elements
+that we have set we can use the universel selector and set some rules in it such as
+setting the margin and padding to 0 this has enabled all default padding and margin to 0 all
+the default values applied by the browser are now set to zero meaning the browser has now no 
+input on these values this is a way to reset the default stylings applied by the browser
+another imp property is the boxsizing that we have set to border box
+
+another unit that we have is the viewport units which are basically used for the 
+width and height this is importatn because many times we come accross the 
+problem of setting the width and height units so we use the viewport units to adjustt them
+but despite it handling the width and height the percentage is a better choice in terms of 
+width and height adjustments

@@ -1,0 +1,24 @@
+there are three ways to add css
+1) inline css
+2) internel css
+3) externel css
+
+
+css rule set
+
+p {
+    font-size: 64px;
+    color: purple;
+}
+
+p is the html selector
+inside the curly bracket is the declaration
+font-size is property and its value is its value
+
+this is as a whole is called a css rule
+
+
+in css wrong spelling amounts to error any spellling mistakes mean 
+css will ignore it
+
+we can use w3c validator to validate our css files

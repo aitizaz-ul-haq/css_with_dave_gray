@@ -1,0 +1,17 @@
+when ever we decide to set property color in css file vs code wants to help
+and instatnly shows color pallete
+
+other than the color pallete selection we can create our new color 
+by using rgb which stands for reb green and blue by providingg them values the color red green ad blue will 
+produce a color mixture of the red green and blue values
+
+other than rgb we have rgba the a syands for the splha channel which adds tranparency value to the color
+
+
+another color property we can use is hexadecimal value which is denoted
+by a hash goes 0 to 9 and also uses letters
+
+another color property is hsl stands for hug saturation and lightness
+
+
+can use coolers to collect colors

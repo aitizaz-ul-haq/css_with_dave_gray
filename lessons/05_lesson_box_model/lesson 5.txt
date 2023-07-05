@@ -1,0 +1,21 @@
+every thing in css is a box
+
+
+the box model consossts of from outside to inside margin represented in orenge in
+inspect tools in chrome then border then padding
+in green and then content in blue this whole thing is
+is called the box model the browser set sthe default
+margin and some tims the paadding on the box model
+
+
+so avoid the browsers default settings what we do is we would very much like toset our own values of margins and 
+padding in em the way we wnat it fro that we 
+can use the universal selector and that will
+allow us to apply our own custom box model
+values with out the browsers input
+
+so for border box option in css reset if we set to the 
+content-box value what will happen that all the other\
+box model values will be included in the content but if we set
+it to border box all the other values will be added to the final
+size of the thing

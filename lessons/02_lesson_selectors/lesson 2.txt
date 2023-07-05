@@ -1,0 +1,28 @@
+there are t hree types of selectors in css
+
+html element selectors
+class selector
+id selector
+* universal selector is a selector that can select every thing on the page
+it is typically used for css reset
+
+
+classes are most common type of selector could be applied to multiple 
+html elements
+
+ids are unique and should be only use once rarely you should use ids
+
+
+css stands for cascading styler sheet means it works like a waterfall 
+it works top down that means css code is compiled top to bottom from top 
+it begins all the way down
+
+in css there is most definetly the concept of inheritance child elements 
+inherit the styles or the properties of the parent element like in body
+the font size is all inherited any thiung related to font and typography
+is inherited color line hiegt alignment others are not inherited like border
+
+
+do not use !important flag only if it is important to because it effects the 
+css it overirdes every thing
+

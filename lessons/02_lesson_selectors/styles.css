@@ -1,0 +1,36 @@
+/* this is a universal selector it selects everything in a web page */
+/* * {
+    font-family: monospace;
+} */
+
+
+
+body {
+    font-size: 22px;
+}
+
+/* can select multiple selectors to apply same property and value to them */
+
+h1,
+h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+/* can find elements inside other elements to appy css to them */
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
