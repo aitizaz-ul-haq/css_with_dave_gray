@@ -1,0 +1,22 @@
+typography is the way that text is arranged and presented
+
+font and text settings are usually inherited
+
+but inside a form they donot inherit the font size we can provide
+font for input value inside the form inherit value this will alow
+us to use same font size provided to boy tag
+
+font and text are two diff things
+
+there are some text settings that are not impacted by font settings
+
+
+there are a few other properties that do not start with font or 
+text like line height dedfault val is 1.2 it only takes numbers
+no units required another one is letter spacing and word sapcing
+
+some font properties you donot set on specific pragraphs but on whole
+page these include the font-family serif is the generaic font family
+that we see on a web page
+
+we can choose externel fonts such as from google fonts

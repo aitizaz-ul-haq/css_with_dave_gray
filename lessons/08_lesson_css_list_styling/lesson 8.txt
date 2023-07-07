@@ -1,0 +1,10 @@
+when it comes tolist there are two parts that could be styled the numbers in ordered list and the 
+bullets in un ordered list and the second part is the text representation 
+in the list could also be changed or styled
+
+there are some attributes in the list html that can also be used
+to style the list 
+
+just like psuedo classes there are psuedo elements as well
+these elemnts hsve not been covered yet but they are like psuedo
+classes

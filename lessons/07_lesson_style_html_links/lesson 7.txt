@@ -1,0 +1,17 @@
+links are styled auto matically depending on there state
+if they are not visited they will show up in blue if a link 
+is visited or clicked it will turn to purple as to signal 
+that it has been visited also by default links are underlined
+to signal that that part of the text is a link
+
+another default setting in links is when you keep pressing mouse on it it will turn to requiredmeaning there 
+is another property there that can be styled
+
+
+there are some classes called sudo classes these are basicallyt 
+the classes that are representing the default styling on the
+an html element we can not only override them but completly change them
+according to our requirement 
+
+anchor tags psuedo classes should be edited in a sequecne
+because any other sequence will overrride uther classes

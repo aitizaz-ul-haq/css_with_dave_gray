@@ -1,0 +1,32 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* this is the right order for anchor tags psuedo classes */
+
+a {
+    /* text-decoration: underline; */
+    /* text-decoration: none; */
+    /* cursor: not-allowed; */
+    /* cursor: pointer; */
+    /* color: blue; */
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+    /* color: purple; */
+}
+
+a:hover,
+a:focus {
+    color: hsl(189, 44%, 49%, 0.8);
+    /* opacity: 0.7; */
+    background-color: gold;
+}
+
+a:active {
+    color: red;
+}
