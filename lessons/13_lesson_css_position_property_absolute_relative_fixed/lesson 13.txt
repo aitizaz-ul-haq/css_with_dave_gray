@@ -1,0 +1,43 @@
+the default position of elements is static so if you set
+position property to static it will be set to default
+
+when we change the value of position to absolute there wont be any changes
+becuase we need to set the values for top left bottom right 
+as well absolute positioning needs a relative parent meaning
+that the absolute position property if not given a parent relative value ie 
+the containre conatining the absolute element will use the 
+screen as a realtive and set it self as we saw with box left 0
+top 0 value but when we give the container a relative value to
+position the box inside the conatiner now has a refrence to its
+absolute positioning and it will set left and top values
+according to the conatiner rather than browser screen if we set 
+have multiple acsectors to an absolute element and we set all
+ancestors to relative the element whos position is set to 
+absolute will pick the closeset one to that absolute element
+to be relative top 0 and left 0 are default values if we give it
+other we can see it moves inside the closeset relative ancestors
+accordint to the values given 
+
+no w for relative container if we set position to relative and the 
+element is already inside the relative elment and no ancestor is required
+the element we set to relative can be provided the left and right
+value this will enable the position accordint to left and right
+values provided
+
+for the position fixed we see that an element thats position is set
+to fixed the element would not move and stay fixed even if we scroll it
+will staty fixed at its position as the name sujjests the postion 
+is fixed out of the flow of the page 
+
+it can get confusing but the absolute block is on top the 
+css is layered and so absolute comes first so it is on the first
+layer so it will be on top of any overlapping css elements
+but some times we need to put some element on top of 
+the first one in this case the absolute is on top and weneed to put|
+fixed on top so we can do that by using z-index
+
+the last one is sticky sticky is alot like fixed but it is differnet
+than fixed because it will stay at the sopt you have defined
+when we provide the sticky postion a value it will stick to that value but once
+it runs out of the container during scrolling it will stop and move up wards with the rest of
+the container during scrolling

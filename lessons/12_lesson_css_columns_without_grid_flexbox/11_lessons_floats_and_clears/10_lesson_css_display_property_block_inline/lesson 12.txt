@@ -1,0 +1,13 @@
+we can add columns to our html paragraphs with out grid and or
+flexbox by using the column property and assigning to our sections containing paragraph
+
+we can adjust the width of the colum nwe have set and this will alow us to adjust the width of the column the columns will now adjust according
+to the value set
+
+applying columns property allow usto add some spacing between the
+parargraphs but its does so by adding margin automatically
+if the css reset is not set the margins will be added automatically
+what if we need to remove these margins what are we going to do
+
+in css wehave some thing called margin collapsing this means
+auto margin will not be applied doubled

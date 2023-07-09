@@ -1,0 +1,13 @@
+block elements stack on top of each other but when we float
+an element it will take that element out of thenormal flow of the page
+and then we can see other elemetns wrapping around the floated
+element
+
+but since the floated element is not inside the normal flow 
+the margin will not be applied effectively
+
+if floating elemetns are inside a container they might over flow so because of that over flow they |
+have to be handled inside the container for that we can set the over flow to auto
+for the contianer this will let the contasinre to adjust the over flowing element but
+that is the legacy way of handling the over flow another 
+way os to use display properties flow root
