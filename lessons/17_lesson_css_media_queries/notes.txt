@@ -1,0 +1,39 @@
+media queries allow you to modify your website based on specific charactersitcs
+most often we look at browser viewport width this si key to reponsive website
+the width of a device's viewport is very important to make the website responsive
+
+firstly in the head if we lok we have a meta tag that enables a reponsive design that 
+the one set to viewport this meta tag is imp to enable our responsive designs
+with media queries
+
+firt we lok at the syntax of the media query
+
+Syntax:
+@media media type and (condition: breakpoint) {
+    css rules
+}
+
+in the asbove given syntax oif the media query we can see the syntax of the media query
+we start with @media then we give media type and then we give conditions and then 
+we provide the type of break point we need to add and there are lots of different types of
+conditions and break points that we can add and the css rules that needed to be modified 
+we add inside the curly brackets 
+
+now as we write our first break point we see that we can write screen for media type and
+and for condition we use min width this si a starttuing point it always starts from min 
+minm width usually from and upto is the idea is to go from smallest to the largest that is 
+the idea behind mobile first approch that your website be modified for the mobile screen
+sizes 
+
+so now that the media query value minwidth is set to 481px every thing before will applied 
+accordingly but once it gets to 481 px every thing related css all the changes we have applied
+will be changed accordingly now the ones that are changing will be changed on min with 481px
+but other styles will not change and will be accordingly the ones that are not inside the 
+media query
+
+min width and max width are very common but you can also use other properties such as
+orientation
+
+so how do we decide the break points
+
+we can see some css frameworks and see what they have done this will tellus some important braek point s to know

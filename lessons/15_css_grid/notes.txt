@@ -1,0 +1,37 @@
+there could be several different ways to use grid we will discuss them all
+
+to use grid set continer value to display grid 
+
+the first thing we need to defeine for grid is the grid flow it can be row or column
+
+the grid flow property is simple and does not define accurate amount of size for a column
+so we can use grid template column as well this will allow us to set grid to 
+column as well as set values for it we dont nessercarilly have to use px we
+can use fr or fraction to define the spacing this will allow the grid items to take all the space and adjust according to 
+fr fraction values instead of defining each column we can set a value for all the columns ising the
+repeat property first value in repeat is number of columns in row and then there second value
+is about the fraction value between them
+
+now to define each rows we can use grid-auto-rows property this will help us
+define the the values for the rows again we cannot define and provide a hard coded value for this
+so we can use a css function minmax this lets us to say minimum value first 
+
+same values aexist for the template-grid-row 
+
+we can also set gaps between rows using row-gap and also column -gap as well we can laso just use|
+gap that will define all the spacing around the columns and rows
+
+there are some grid psudo selector classes we need to see as well one is first child
+this allows us to select the first child which then we can apply background colos property
+so we can define where the start of the column is by proviing it a value and we can 
+also define where does it end also by a value this will drasticlly change the size of 
+the column as we have now defined its size its not just columns we can also do teh same with the row
+using row properties 
+
+just like flexbox we can nest grid inside a grid container as well and just like 
+flexbox we have all three properties align-items align-content and also justify-content
+and for justify content and align content both what we can do is we can use both
+as shorthand property we can use place-content property this will give us both the values for them
+
+there is another way of adding grid we can apply grid to html by proving the classes
+with grid values as seen in example code

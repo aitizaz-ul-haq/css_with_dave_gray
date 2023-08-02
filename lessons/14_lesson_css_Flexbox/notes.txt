@@ -1,0 +1,72 @@
+when set display to flex there is a starting of the flex callec flex start and ending flex end and also flex
+flex center the items that we are applying flex on are called flex items 
+
+the justify content property is only applied to flex items like center left and right justify content 
+has multiple other values these are space around when applied space around the space around value will 
+equally apply space around the flex items same with space between when we add space between property there will
+only be sapce between no space in start and end and there is another value that has both previously mentioned properties
+space evenly it will add in beggining and the end spacing as well as in between
+
+gap is another flex realted property that applies gap between flex items
+
+the align items property is also only related to flex so it will only apply to flex align items has start 
+center and end properties which will be applied horizontally to flex items
+
+we change the direction of flex the align items is being applied horizontally because flex direction is by default
+row but we can change the flex direction with flex direction property and set to to column once the flex direction 
+is set to column the flex will be applied to flex items in a column pattren as you can see from the example code
+
+after changing the direction of flex we can see the align items property is now changing vertically the flex-items
+
+if we have applied flex end or start with align items and try to justify contetn it wont take it 
+because there is no space for it
+
+if we set the flex direction to row reverse the flex items will be placed in reversed position startting
+with last element all the way to first element also colum reverse is also an option
+
+now after all this flex if in dev tools we try to change the screen size we will se that the flex items are not 
+adjusting according to the flex container witth the screen there is an overflow
+
+to adjust this there is a flex property called flex-warp when set to wrap the flex content will adjust themselves
+according to the screen size 
+
+there is a shorhand that we can also used instead of flex direction adn flex wrap that is flex flow we dont
+have to define both we can use a shorhand flex flow that will do the same thin for us we wnat the flex to work in
+a row and also warp so we set the value flex flow to row wrap first value is direction which is row and second value is wrap
+
+
+after the wrap is in effect we have multiple rows theat are created due to flex wrap what we can do is we can apply
+align-content property to manage these rows align-content takes the same values as justify-contetn property flexstart
+flex end and center
+
+these were the operation on the flex container the continer that contains the flex items we can apply all these values on the flex 
+container but we can also apply flex properties on flex items as well
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+we can convert the flex items to a flex continer by simply applying display properti to flex this will make the items flex continers as well
+
+we can use 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  these three properties to align items in center
+
+  on e of the main properties is flex basis that adds equal amounts of spacing on all sides on the content
+
+  another one is flex grow that applies if we wnat to the flex items to grow and fill the sapcing around them
+
+  another alternative and opposite property is flex shrink that when applied will shrink the flex items but if flex basis has been applied will retain the spacing in it
+
+  shrink grow and basis could be applied in a shorhand by puttin flex: shrink grow basis vals and this will apply to is as well
+
+  the last flex property is the order which we can use to change the order of the items in the flex this will alow us to move the item in a row or column 
+  use flex froggy to learn and practice flex
+
+flex-flow: column-reverse wrap;
+align-content: space-between;
+align-items: center;
+justify-content: center;

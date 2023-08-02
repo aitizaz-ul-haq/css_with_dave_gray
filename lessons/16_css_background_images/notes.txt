@@ -1,0 +1,60 @@
+images are inline elements they are not block level elements and thtass why they auto matically 
+have spacong that was invisionmed because they were going to be used in paragraphs
+we can set it to a block l;evel element to remove that spacing
+
+basic way of making an image reponsive is to provide it with a container we can do that
+with html figure tag and give the figure a value becuase it is a container it must have
+a default width when the screen size is full also using percentage is also a good idea because then the
+continer will fit it self according to scren size so that it has some space now that the image has 
+a continer we can go ahead and fill the continer
+
+once a continer for the responsive image has been set we can go ahead and add the image to the continer
+now the image would require some proeprtise to become fully responsieve setting the width 100% will
+make the image fill up the continer also the percentage value will ensure that 
+the image adjust the width automatically according to the screen size also setting 
+height auto would defionalty adjust the hiehgt automatically by looking at the
+width that is set percecntage 100% then we can add some border values as well to the image 
+
+if we have a caption to our figure container we can use the flex box property to change its position 
+left or right by using the wrap property of the flex
+
+we can set an image as background image but before that we need to set a color if image is not available 
+so we set a background color this is important once the back ground is set we can add the background image
+using the background color property url needs to be provided to add an image in the back ground
+
+background repeat values allow to set where the background image is to repeat where should it not
+reapeat so we have to 
+set value to repeat to stop repeating or to set an axis of repeat
+
+if we change background image to some thing else we will se it looks good but the font now 
+doe snot look so good we have to emphesize on the font because teh font is the most important hing
+the font has to be visible if we have a tranparent image of the background image we can set the background
+we see the transparent image will make it look cool mix with the background image we set earlier
+
+now if we set a larger background image we see that it covers some part of the image is shown while the rest
+is hidden that is becuas ethe image is too big and cannot ft completly in the backg round for that
+tyo adjust that we have some thing called background-size css property and set its value to cover 
+now what will happen is that the background image will cover the entire background another property is contain
+what will now happen that the image will be contained in its entirety 
+
+now some times we need to display a n image that is even bigger and has a higher resolution this case we
+we need to set some rules one rule is that we need to set an image that is atleast twice the size becuase of devices some devices 
+have lower amount of pixels and this could blur the image this is no good so a rule of thumnbis to set double 
+the image size
+
+again despite the background images being added the most important thing always will be the font in front of
+it the font needs to pop out it should be visible that ever we can apply some text related stuff like giving the text 
+a diff color and or giving it some shadow most of the time instead of making the text better we could
+put a filter of color over the background what this will do is set a shade oint he background and make the 
+text pop a little more
+
+another important property is background position to move the image
+
+we can also set back ground image to the boday the whole body but before that there is something calleed
+linear gradient linear gradient allows us to use multiple colors mixes them up in a linear fatsion what we
+can also do is that we can use this linear fashion an change its direction accordin to requirements
+
+there is anothe very important background image property thatt is background clip what it does that it
+peojects background image to the front inside the large text but the background clip property is not stuff
+supported by alot of browsers so we can use webkit to enable it to be used once the property is addedf we see that
+the background image can be scene in side the text
