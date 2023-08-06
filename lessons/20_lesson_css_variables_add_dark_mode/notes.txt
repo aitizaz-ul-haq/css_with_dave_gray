@@ -1,0 +1,62 @@
+css varibles are very important and very use full imagine if we have a very large 
+project which means a very large css file
+
+for example if have a hex color code and we are using this again and again in our project
+we are definatly going to repeat using it so we have to copy paste it again and agiain
+and when the req changes and we are instructed to change the color then what 
+we are going to have to change every single color code 
+
+but when we use css variables we only have to change it in one place 
+
+we will create another section call it variableas and use a css psuedo class
+called root we have not used it yet the root psuedo class every thing inherits from that class
+even html it is referncin gthe document root so we put it at the top
+
+we will start with the colors 
+
+creating variables will start from  a name it starts with a -- before the name you
+can use upper case ort lower case but it is upto you using uppercase is good we proviDE 
+this variable with a value like the hex color and then to provide this value to the 
+css rule as a property we use var() and in it we mention the variable name this will
+automatically lkike as in javascript will give the css rule teh value of the variable
+whcih is the hex color 
+
+its okay to create two variables with two values
+
+vs code helps you with adding the variables you wrtite var and teh vs code helps in adding 
+variables in properties
+
+we can use css colors for more then just colors
+
+we in body html selector has the font property and there is a short hand where the font size
+and font family both values are we can define a variabel and use it to store both in it
+
+we are not limited to just colors and font sizes we can put other stuff into variables 
+and use it accordingly 
+
+like padding we can see in nav selector thaht nav has a padding of 1.5em so 
+we can create a variable to store the value of this as well so we can apply the paddingto 
+other parts as well
+
+so what if we want to use apply shadow property we are going to need to apply all 
+four axis vaslues and color to it so what if we wnat to provide the same shadow 
+in other places we create a variabel for it now when we define a variable we can use value
+from another variable as well we can use the same concept fro our borders as well
+
+while creating html content first define the css variables for its styling normally
+that is how it is done but you can define after if you wan to 
+
+we can also change the value of a vriable in the middle of a css rule set now when we give 
+a new value to a variable it will ony be applied to that specific class where the value 
+is cahnges like in highligt class we change teh value of background color so we will
+be changing the value of square high light as well
+
+a feature that css vraible makes easier to implement and is in high demand is the dark
+mode 
+
+so to add a dark mode we have to define a seperate color theme 
+
+by adding a media query and giving it a value to perefer color sheme light ot dark 
+and creating a new root in it we can add the colors that are dark now what ever value we have set
+in windows as light or dark the browser will prefer that one and render css accordingly 
+so teh dark mode will be added to our page according to our os prefrences

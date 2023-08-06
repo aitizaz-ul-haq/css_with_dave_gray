@@ -1,0 +1,36 @@
+in css we have psuedo class and psuedo elements so what is the difference between 
+both of them
+
+psuedo class selects an element that is in a specific state like for anchor tag if you look in the code
+YOU WILL see the anchor tag psudo classes link visited hover and focus these are all specific states of
+the element
+
+psudo element is similar but they act like you have enterd a new element in to your html documnt
+also psuedo element use two columns instead of one we use for psuedo classes 
+
+is can be used to replace the multiple use of nav a selecttor we can use it so we dont repeat the use of nava in the css rule
+we csn use this to apply dry code dry stands fro do not repeat
+
+so if two classes are being used we can use any class as well to slect the psuedo classes we want 
+
+with sleector classes we can also target the attribute an example of that would be img html selector 
+in block parentheses we can set the alt to the selector and we can provide a css value to this will allow ust to 
+apply the css rpoperty based on the attributes value now we can also see if the alt attibute does not have 
+a value this we can do by using not 
+
+another psudo class that we have used previously is the nth child class we have used it before 
+with card but it is used only to select the number of card we want so if we set the value of nth child
+to 2 we are selecting the second card in the html with class nth-child(2) value set to 2 nth child
+can also recieve odd or even value as well
+
+lets move on to psuedo elements
+
+one of the psuedo elements we can create is after what after does is creates content after the 
+first css rule has been added see in the example how this is possible smae egoes with before psuedo elemetn 
+the content we added will be added before the css rule a perfect example of this is the quotres we can add them
+open and closed before and after as well and also we can style them as we want like setting position relative
+to give some sapcing and adding font size
+
+another psudo element is the  first-letter we can use to access the first letter of p tag or any other thing
+
+another psueod element to add is the first line we can use it to add styling to the first line as well

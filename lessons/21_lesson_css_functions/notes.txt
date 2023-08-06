@@ -1,0 +1,30 @@
+we have already used functions before in our css if you go ahead and look at the 
+hsl and rgb colors you will see that they have values function values as well
+so these are color functions
+
+we also already have used gradient function as well as we provided it values 
+such as colors and size url is another functions
+
+these are css functions there are many css functions
+
+there are math functions in css as well in font size we can use min function as well 
+instead providing it with a value  min(2.25rem, 3vh) in this we define the font size
+but also the height which is 3vh so when set these values we will se that 
+during responsiveness the font size will not go down or exceed and the hight will 
+also remain 3 vh when we make the size of the screen larger it wont go higher then this 
+this is the use of min function
+
+the opposite to min is max the max function will choose the large of teh 2 values
+ max(1.75rem, 3vh) same principle as min you have one absoulute value like 1.75rem 
+ value and one relative value that has the ability to adjust according to itself 
+ that would be 3vh
+
+ clamp is a newer function that takes both min and max value  
+
+ another function we can use is the filter function for adjusting the brightness
+ other than then rgba or opacity this allows us to apply opacity and brioghtnmess
+ with more effectiveness
+
+ we can create a custom tooltipe as well using the attr function that will provide us the 
+ value of the toolitp data attribute we can create a text from the tooltip attribute 
+ so these this wiil and other css values will allow us to create a tooltip
