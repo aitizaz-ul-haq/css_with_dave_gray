@@ -1,0 +1,25 @@
+the css transform proerpty has two values to whom we provide the y and x axis
+values these are translatex and trans late y we can provide % mor rem values
+to it as well as in negetive value as well using x and y axis will move the 
+object up and down we can also combine x and y values ina combination as well
+that will apply x values first and y values second
+
+another value for transform is rotate we have x y and z values for roratet as well
+rotate z cvhanges teh orientation clockwise and anticlockwise
+
+similarlay the transform scale expands to x or y values
+
+another tranform value is skew this angels the div into one direction it has x and y values
+
+another css property is transition we can apply it on hover psudo class we can set a background color 
+value to transition and set a duration for background color to change also add delay time for tansition aswell
+we also have a transition timing function css property that can help in timing the transition
+
+css have a css property called animation that allows us to perform animations on html content
+we can use this to animate objects in html and style them accordingly firstly we name our animation
+
+now most of the properties that the animation takes are like transition but the key diff between transition
+and animation is @keyframe with the name of animation this allows us to apply animation at different times
+this will help us move objects with animation styles and this will allow us to apply the animations
+from 0% to 100% that is the duration of time we have set to change the animation from diff parts 
+to diff parts
